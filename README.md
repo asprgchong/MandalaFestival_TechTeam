@@ -7,6 +7,7 @@
 3. If this does not work, try creating your own personal access token via Settings -> Developer Settings -> Create a new key (copy this key and put it somewhere for now just in case you lose it as you will not have access to it later on.
    - Run "git clone https://<yourPersonalAccessToken>@github/<yourgithubUserName>/<FORKEDrepo>.git"
 
+<br/>
 4. <img width="764" alt="Screenshot 2024-04-26 at 2 12 01 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/0e4680e4-0ab3-459d-91b8-e48c04b4976f">
       <p>***VERY IMPORTANT*** Make sure to set the remote origin to the original repo --> run "git remote add upstream https://github.com/asprgchong/MandalaFestival_TechTeam.git"</p>
 
