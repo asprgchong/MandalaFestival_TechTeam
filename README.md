@@ -1,7 +1,16 @@
 **Set up steps**
-1. Run "git clone <https or ssh link provided by the repo>"
-2. If this does not work, try creating your own personal access token via Settings -> Developer Settings -> Create a new key (copy this key and put it somewhere for now just in case you lose it as you will not have access to it later on.
-   - Run "git clone https://<yourPersonalAccessToken>@github/<yourgithubUserName>/<repo>.git"
+1. Top right - there should be a fork button --> click it to fork the repo
+   <img width="747" alt="Screenshot 2024-04-26 at 2 10 29 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/03d0bbe0-e9c8-41b5-aec7-5e12b04c83df">
+   
+------ DO NOT DO THIS BEFORE FORKING ( I FORGOT ABOUT FORKING) ---------
+2. Run "git clone <https or ssh link provided by the FORKED repo>"
+3. If this does not work, try creating your own personal access token via Settings -> Developer Settings -> Create a new key (copy this key and put it somewhere for now just in case you lose it as you will not have access to it later on.
+   - Run "git clone https://<yourPersonalAccessToken>@github/<yourgithubUserName>/<FORKEDrepo>.git"
+
+4. <img width="764" alt="Screenshot 2024-04-26 at 2 12 01 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/0e4680e4-0ab3-459d-91b8-e48c04b4976f">
+      ***VERY IMPORTANT*** Make sure to set the remote origin to the original repo --> run "git remote add upstream https://github.com/asprgchong/MandalaFestival_TechTeam.git"
+
+5. <img width="743" alt="Screenshot 2024-04-26 at 2 13 19 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/196eb195-d761-4241-a995-0c064fa43e3b">
 
 **Workflow Steps**
 1. Before doing anything, make sure to git pull in the main branch!
