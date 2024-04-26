@@ -2,7 +2,7 @@
 1. Top right - there should be a fork button --> click it to fork the repo
    <img width="747" alt="Screenshot 2024-04-26 at 2 10 29 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/03d0bbe0-e9c8-41b5-aec7-5e12b04c83df">
    
------- DO NOT DO THIS BEFORE FORKING ( I FORGOT ABOUT FORKING) ---------
+------ DO NOT DO THIS BEFORE FORKING ( I FORGOT ABOUT FORKING) ---------<br/>
 2. Run "git clone <https or ssh link provided by the FORKED repo>"
 3. If this does not work, try creating your own personal access token via Settings -> Developer Settings -> Create a new key (copy this key and put it somewhere for now just in case you lose it as you will not have access to it later on.
    - Run "git clone https://<yourPersonalAccessToken>@github/<yourgithubUserName>/<FORKEDrepo>.git"
