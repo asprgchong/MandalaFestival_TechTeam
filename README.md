@@ -8,11 +8,14 @@
    - Run "git clone https://<yourPersonalAccessToken>@github/<yourgithubUserName>/<FORKEDrepo>.git"
 
 <br/>
-4. <img width="764" alt="Screenshot 2024-04-26 at 2 12 01 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/0e4680e4-0ab3-459d-91b8-e48c04b4976f">
+4. 
+<img width="764" alt="Screenshot 2024-04-26 at 2 12 01 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/0e4680e4-0ab3-459d-91b8-e48c04b4976f">
       <p>***VERY IMPORTANT*** Make sure to set the remote origin to the original repo --> run "git remote add upstream https://github.com/asprgchong/MandalaFestival_TechTeam.git"</p>
 <br/>
-5. <img width="743" alt="Screenshot 2024-04-26 at 2 13 19 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/196eb195-d761-4241-a995-0c064fa43e3b">
+5. 
+<img width="743" alt="Screenshot 2024-04-26 at 2 13 19 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/196eb195-d761-4241-a995-0c064fa43e3b">
 
+<br/><br/><br/><br/>
 **Workflow Steps**
 1. Before doing anything, make sure to git pull in the main branch!
    - Run "git branch" in your terminal to make sure that you are in the main
