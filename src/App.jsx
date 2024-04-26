@@ -1,23 +1,18 @@
 import { useState } from 'react'
 import './App.css'
-import reactLogo from './assets/react.svg'
+import Arist_mini from './components/artist_mini'
 import Button from './components/button'
-import viteLogo from '/vite.svg'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div class="row">
+        <h2 class="column street">155 Indian Boundary Park</h2>
+        <h1 class="column bus">bus stop</h1>
+        <div class="line" id="left"></div>
       </div>
-      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -31,6 +26,8 @@ function App() {
       </p>
 
       <Button/>
+
+      <Arist_mini/>
     </>
   )
 }

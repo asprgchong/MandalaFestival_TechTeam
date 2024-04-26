@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .logo {
@@ -39,4 +38,36 @@
 
 .read-the-docs {
   color: #888;
+}
+
+@media only screen and (max-width: 500px) {
+    .line {
+        height: 2px;
+        width: 230px;
+        background-color: #fff;
+        position: absolute;
+        left: 0px;
+    }
+
+    #left {
+        float:left
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-direction: row;
+    }
+    .column {
+        flex: 50%;
+    }
+    .bus{
+        padding-left:3rem;
+    }
+    .street{
+        font-size:1rem;
+        margin-right:2rem;
+        color:#9FD3DF;
+    }
 }
