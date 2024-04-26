@@ -10,7 +10,7 @@ function App() {
     <>
       <div class="row">
         <h2 class="column street">155 Indian Boundary Park</h2>
-        <h1 class="column bus">bus stop</h1>
+        <h1 class="column">bus stop</h1>
         <div class="line" id="left"></div>
       </div>
       <div className="card">
