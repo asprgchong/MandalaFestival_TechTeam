@@ -1,9 +1,9 @@
-#Set up steps#
+**Set up steps**
 1. Run "git clone <https or ssh link provided by the repo>"
 2. If this does not work, try creating your own personal access token via Settings -> Developer Settings -> Create a new key (copy this key and put it somewhere for now just in case you lose it as you will not have access to it later on.
    - Run "git clone https://<yourPersonalAccessToken>@github/<yourgithubUserName>/<repo>.git"
 
-#Workflow Steps#
+**Workflow Steps**
 1. Before doing anything, make sure to git pull in the main branch!
    - Run "git branch" in your terminal to make sure that you are in the main
    - This will ensure that we don't have to deal with any merging conflicts.
