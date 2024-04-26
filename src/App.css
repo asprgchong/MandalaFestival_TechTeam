@@ -55,19 +55,15 @@
 
     .row {
         display: flex;
-        justify-content: space-between;
         align-items: flex-end;
-        flex-direction: row;
+        column-count: 2;
+        margin-left: -1rem;
+        column-gap: 0.4rem;
     }
-    .column {
-        flex: 50%;
-    }
-    .bus{
-        padding-left:3rem;
-    }
+
     .street{
-        font-size:1rem;
-        margin-right:2rem;
+        font-size:1.4rem;
         color:#9FD3DF;
+        margin-left:-0.5rem;
     }
 }
