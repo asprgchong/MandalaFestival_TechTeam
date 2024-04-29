@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Arist_mini from './components/artist_mini'
+import Artist_mini from './components/artist_mini'
 import Button from './components/button'
+import Music_bar from './components/music_bar/music_bar'
+import { StrictMode } from 'react'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +29,11 @@ function App() {
 
       <Button/>
 
-      <Arist_mini/>
+      <Artist_mini/>
+      <StrictMode>
+        <Music_bar/>
+      </StrictMode>
+      
     </>
   )
 }
