@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Arist_mini from './components/artist_mini'
 import Button from './components/button'
+import RoundedSquare from './components/map'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,7 +27,7 @@ function App() {
       </p>
 
       <Button/>
-
+      <RoundedSquare/>
       <Arist_mini/>
     </>
   )
