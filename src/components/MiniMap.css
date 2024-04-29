@@ -1,0 +1,18 @@
+.mini-map {
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .stop-label {
+    font-size: 8px; 
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .active-stop-label {
+    font-size: 10px; 
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; 
+  }
+  
