@@ -14,12 +14,12 @@ const Navbar = () => {
 
     return (
         
-        <div style={{ width: '100%', display: 'flex' }}>
+        <div className='navbar'>
 
             <img 
             src={companyLogo} 
             alt='Mandala Festival Logo' 
-            style={{width:'200px', height:'50px'}}
+            className='logo'
             />
 
             <nav style={{width: '50px'}}>
