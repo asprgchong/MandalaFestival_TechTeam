@@ -1,0 +1,48 @@
+.music_bar {
+    background-color: #242424;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:30px;
+    padding-bottom:50px;
+    border-radius: 20px;
+    margin-top: 90px;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+
+.audio_img {
+    width:17%;
+    float:left;
+    padding: 15px;
+}
+
+.img {
+    width:auto;
+    float:left;
+    left: 20%;
+    clip-path: inset(0 0 0 0 round 10%);
+}
+
+.audio_text {
+    overflow:hidden;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+
+.play_button {
+    float:left;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.progress_bar {
+    overflow:hidden;
+    padding: 20px;
+}

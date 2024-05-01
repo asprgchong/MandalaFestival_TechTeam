@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import Arist_mini from './components/artist_mini'
+import Artist_mini from './components/artist_mini'
 import Button from './components/button'
+import Music_bar from './components/music_bar/music_bar'
+import { StrictMode } from 'react'
 import Navbar from './components/navbar'
 
 function App() {
@@ -28,10 +30,13 @@ function App() {
             </p>
 
             <Button />
-
-            <Arist_mini />
-        </>
-    )
+      <Artist_mini/>
+      <StrictMode>
+        <Music_bar/>
+      </StrictMode>
+      
+    </>
+  )
 }
 
 export default App
