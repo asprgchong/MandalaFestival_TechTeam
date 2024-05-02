@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Arist_mini from './components/artist_mini'
 import Button from './components/button'
+import Minimap from './components/MiniMap'
 import Navbar from './components/navbar'
 
 function App() {
@@ -26,8 +27,7 @@ function App() {
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
             </p>
-
-            <Button />
+            <Minimap/>
 
             <Arist_mini />
         </>
