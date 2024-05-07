@@ -3,6 +3,7 @@ import './App.css'
 import Arist_mini from './components/artist_mini'
 import Button from './components/button'
 import Navbar from './components/navbar'
+import Lineup from './components/artist_lineup'
 
 function App() {
     const [count, setCount] = useState(0)
@@ -28,8 +29,7 @@ function App() {
             </p>
 
             <Button />
-
-            <Arist_mini />
+            <Lineup/>
         </>
     )
 }
