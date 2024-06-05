@@ -2,7 +2,9 @@ import { useState } from 'react'
 import './App.css'
 import Arist_mini from './components/artist_mini'
 import Button from './components/button'
+import MiniMap from './components/miniMap'
 import Navbar from './components/navbar'
+
 
 function App() {
     const [count, setCount] = useState(0)
@@ -10,12 +12,13 @@ function App() {
     return (
         <>
             <Navbar/>
+            <MiniMap/>
             <div class="row">
                 <h2 class="column street">155 Indian Boundary Park</h2>
-                <h1 class="column">bus stop</h1>
+                <h1 class="column">cta</h1>
                 <div class="line" id="left"></div>
             </div>
-            <div className="card">
+            {/* <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>
                     count is {count}
                 </button>
@@ -25,7 +28,7 @@ function App() {
             </div>
             <p className="read-the-docs">
                 Click on the Vite and React logos to learn more
-            </p>
+            </p> */}
 
             <Button />
 
