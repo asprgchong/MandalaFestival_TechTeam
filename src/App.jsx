@@ -4,6 +4,7 @@ import Arist_mini from './components/artist_mini'
 import Button from './components/button'
 import MiniMap from './components/miniMap'
 import Navbar from './components/navbar'
+import Lineup from './components/artist_lineup'
 
 
 function App() {
@@ -31,8 +32,7 @@ function App() {
             </p> */}
 
             <Button />
-
-            <Arist_mini />
+            <Lineup/>
         </>
     )
 }
