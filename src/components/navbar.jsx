@@ -1,16 +1,20 @@
 import React from "react";
+import {
+    Link
+} from "react-router-dom";
 import companyLogo from '/src/assets/logo.png';
 import '/src/css/navabar.css';
 
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <div><img 
+            <Link to="/"><img 
             src={companyLogo} 
             alt='Mandala Festival Logo' 
             className='logo'
-            /></div>
-            <div className="about">About Us</div>
+            /></Link>
+
+            <a href="https://makersfestival.mandalaarts.org/" className="about">About Us</a>
         </div>
     )
 }

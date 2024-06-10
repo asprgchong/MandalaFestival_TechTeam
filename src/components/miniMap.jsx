@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '/src/css/miniMap.css';
 
 const button = () => {
@@ -16,27 +17,36 @@ const button = () => {
 
             <div className="smallGrey"></div>
 
-            <button>
+            <Link to='/chethanAnant' state={{from:"Chethan Anant"}}>
+            <div className="busbutton">
                 <p className="busname" id="statone">Sheridan & Loyola</p>
                 <div className="statOneCircle"></div>
-            </button>
+            </div>
+            </Link>
+
             <div className="whiteOne"></div>
             <div className="whiteTwo"></div>
 
-            <button>
+            <Link to='/shantahNurullah' state={{from:"Shantah Nurullah"}}>
+            <div className="busbutton">
                 <p className="busname" id="stattwo">Clark & Devon</p>
                 <div className="statTwoCircle"></div>
-            </button>
+            </div>
+            </Link>
 
-            <button>
+            <Link to='/IGustiNgurahKertayuda' state={{from:"I Gusti Ngurah Kertayuda"}}>
+            <div className="busbutton">
                 <p className="busname" id="statthree">Devon & Rockwell</p>
                 <div className="statThreeCircle"></div>
-            </button>
+            </div>
+            </Link>
 
-            <button>
+            <Link to='/juanPastor' state={{from:"Juan Pastor"}}>
+            <div className="busbutton">
                 <p className="busname" id="statfour">Devon & Kedzie</p>
                 <div className="statFourCircle"></div>
-            </button>
+            </div>
+            </Link>
         </div>
     )
 }
