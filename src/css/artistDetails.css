@@ -1,0 +1,47 @@
+.artist-detials-container {
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.artist-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #9FD3DF;
+}
+
+.artist-info {
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+
+.artist-images-container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 10px; 
+}
+
+#artist-image-one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill; 
+}
+
+#artist-image-two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2; 
+    width: 100%; 
+    height: 100%;
+    object-fit: fill; 
+}
+
+#artist-image-three {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: fill;
+}

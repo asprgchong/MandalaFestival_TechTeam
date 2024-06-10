@@ -1,0 +1,103 @@
+.busname {
+    position: absolute;
+    font-weight: bolder;
+}
+
+#statone {
+    top: 5.25rem;  
+    right: 0.4rem; 
+    font-size: 0.4rem; 
+    flex-wrap: wrap;
+    max-width: 2rem; 
+    color: rgba(255, 255, 255);
+}
+
+.statOneCircle {
+    position: absolute;
+    top: 6.75rem;  
+    right: 1.5rem;  
+    width: 0.35rem; 
+    height: 0.35rem; 
+    border-radius: 0.35rem; 
+    background-color: white;
+    z-index: 4;
+}
+
+.whiteOne {
+    width: 0.1rem;  
+    height: 2rem;  
+    position: absolute;
+    background-color: white;
+    top: 6.75rem;  
+    right: 1.625rem;  
+}
+
+.whiteTwo {
+    width: 0.1rem;  
+    height: 6rem;  
+    position: absolute;
+    background-color: white;
+    top: 5.75rem;  
+    right: 4.57rem;  
+    transform: rotate(90deg);
+}
+
+#stattwo {
+    top: 8.5rem;  
+    right: 1.5rem;  
+    font-size: 0.45rem;  
+    flex-wrap: wrap;
+    max-width: 2rem;  
+    color: rgba(255, 255, 255);
+}
+
+.statTwoCircle {
+    position: absolute;
+    top: 8.6rem;  
+    right: 2.5rem;  
+    width: 0.35rem;  
+    height: 0.35rem;  
+    border-radius: 0.35rem;  
+    background-color: white;
+    z-index: 4;
+}
+
+.statThreeCircle {
+    position: absolute;
+    top: 8.6rem;  
+    right: 5rem;  
+    width: 0.35rem;  
+    height: 0.35rem;  
+    border-radius: 0.35rem;  
+    background-color: white;
+    z-index: 4;
+}
+
+#statthree {
+    top: 6.5rem;  
+    right: 4rem;  
+    font-size: 0.45rem;  
+    flex-wrap: wrap;
+    max-width: 2rem;  
+    color: rgba(255, 255, 255);
+}
+
+.statFourCircle {
+    position: absolute;
+    top: 8.6rem;  
+    right: 7.5rem;  
+    width: 0.35rem;  
+    height: 0.35rem;  
+    border-radius: 0.35rem;  
+    background-color: white;
+    z-index: 4;
+}
+
+#statfour {
+    top: 8.5rem;  
+    right: 6.5rem;  
+    font-size: 0.45rem;  
+    flex-wrap: wrap;
+    max-width: 2rem;  
+    color: rgba(255, 255, 255);
+}
