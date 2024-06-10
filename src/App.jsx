@@ -30,6 +30,7 @@ function App() {
                     path='/juanPastor'
                     element={<ArtistDetails/>}
                 />
+
                 <Route 
                     path='/playlist'
                     element={<Playlist/>}
