@@ -8,10 +8,12 @@ function artistDetails({ artistName, artistInfo, artistImages }) {
     <>
       <Navbar />
       <div className="artist-detials-container">
-        <div className="artist-name">Chethan Anant</div>
+        <div className="artist">
+            <div className="artist-name">Chethan Anant</div>
+            <ArtistMap/>
+        </div>
+        
         <div class="line" id="left"></div>
-
-        {/* <ArtistMap/> */}
 
         <div className="artist-info">
             {/* I'm not sure how the json or info will be setup. But once we talk about that I can create some jsx that will parse it. */}

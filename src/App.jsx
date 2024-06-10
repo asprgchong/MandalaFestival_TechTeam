@@ -11,7 +11,7 @@ function App() {
 
     return (
         <>
-            /* <Navbar/>
+            <Navbar/>
             <MiniMap/>
             <div class="row">
                 <h2 class="column street">155 Indian Boundary Park</h2>

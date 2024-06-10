@@ -1,103 +1,105 @@
-.busname {
-    position: absolute;
-    font-weight: bolder;
+.artist-map-container {
+    position: relative;
+    min-width: 125px;
+    max-width: 125px;
+    min-height: 120px;
+    max-height: 120px;
+    border-radius: 1rem;
+    overflow-x: hidden;
+    overflow: hidden;
+    background: #282828;
+    box-shadow:  inset 0.5rem 0.5rem 5px rgba(0,0,0,0.25);
 }
 
-#statone {
-    top: 5.25rem;  
-    right: 0.4rem; 
-    font-size: 0.4rem; 
-    flex-wrap: wrap;
-    max-width: 2rem; 
-    color: rgba(255, 255, 255);
-}
-
-.statOneCircle {
-    position: absolute;
-    top: 6.75rem;  
-    right: 1.5rem;  
-    width: 0.35rem; 
-    height: 0.35rem; 
-    border-radius: 0.35rem; 
-    background-color: white;
-    z-index: 4;
-}
-
-.whiteOne {
-    width: 0.1rem;  
-    height: 2rem;  
-    position: absolute;
-    background-color: white;
-    top: 6.75rem;  
-    right: 1.625rem;  
-}
-
-.whiteTwo {
-    width: 0.1rem;  
-    height: 6rem;  
-    position: absolute;
-    background-color: white;
-    top: 5.75rem;  
-    right: 4.57rem;  
-    transform: rotate(90deg);
-}
-
-#stattwo {
-    top: 8.5rem;  
-    right: 1.5rem;  
-    font-size: 0.45rem;  
-    flex-wrap: wrap;
-    max-width: 2rem;  
-    color: rgba(255, 255, 255);
-}
-
-.statTwoCircle {
-    position: absolute;
-    top: 8.6rem;  
-    right: 2.5rem;  
-    width: 0.35rem;  
-    height: 0.35rem;  
+.bus-stop {
+    width: 5px;  
+    height: 5px;  
     border-radius: 0.35rem;  
     background-color: white;
-    z-index: 4;
 }
 
-.statThreeCircle {
+.kedzie {
+    position:absolute; 
+    top: 4.5em;
+    left: 1em;
+}
+
+.connect-one {
+    width: 1em;  
+    height: 1px;  
     position: absolute;
-    top: 8.6rem;  
-    right: 5rem;  
-    width: 0.35rem;  
-    height: 0.35rem;  
-    border-radius: 0.35rem;  
     background-color: white;
-    z-index: 4;
+    top: 4.6em;
+    left: 1em;
 }
 
-#statthree {
-    top: 6.5rem;  
-    right: 4rem;  
-    font-size: 0.45rem;  
-    flex-wrap: wrap;
-    max-width: 2rem;  
-    color: rgba(255, 255, 255);
+.rockwell {
+    position: absolute; 
+    top: 4.5em;
+    left: 2em;
 }
 
-.statFourCircle {
+.connect-two {
+    width: 1em;  
+    height: 1px;  
     position: absolute;
-    top: 8.6rem;  
-    right: 7.5rem;  
-    width: 0.35rem;  
-    height: 0.35rem;  
-    border-radius: 0.35rem;  
     background-color: white;
-    z-index: 4;
+    top: 4.6em;
+    left: 2em;
 }
 
-#statfour {
-    top: 8.5rem;  
-    right: 6.5rem;  
-    font-size: 0.45rem;  
-    flex-wrap: wrap;
-    max-width: 2rem;  
-    color: rgba(255, 255, 255);
+.clark {
+    position: absolute; 
+    top: 4.5em;
+    left: 3em;
+}
+
+.connect-three {
+    width: 1em;  
+    height: 1px;  
+    position: absolute;
+    background-color: white;
+    top: 4.6em;
+    left: 3em;
+}
+
+.connect-four {
+    width: 1px;  
+    height: 0.8em;  
+    position: absolute;
+    background-color: white;
+    top: 3.85em;
+    left: 4em;
+}
+
+.connect-five {
+    width: 0.8em;  
+    height: 1px;  
+    position: absolute;
+    background-color: white;
+    top: 3.85em;
+    left: 4em;
+}
+
+.connect-six {
+    width: 1px;  
+    height: 1.5em;  
+    position: absolute;
+    background-color: white;
+    top: 2.4em;
+    left: 4.8em;
+}
+
+.sheridan {
+    position: absolute; 
+    top: 2.2em;
+    left: 4.7em;
+}
+
+.bus-stop-pin {
+    width: 5px; 
+    height: 5px; 
+    background-color: red;
+    border-radius: 0.35rem;  
+    border: 2px solid #fff;
 }

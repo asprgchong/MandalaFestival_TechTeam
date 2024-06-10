@@ -1,32 +1,34 @@
 import React from "react";
-import '../css/artistMap.css';
+import "../css/artistMap.css";
 
 const ArtistMap = () => {
-    return (
-        <>
-            <div>
-                <p className="busname" id="statone">Sheridan & Loyola</p>
-                <div className="statOneCircle"></div>
-            </div>
-            <div className="whiteOne"></div>
-            <div className="whiteTwo"></div>
+  return (
+    <>
+      <div className="artist-map-container">
+        
+        <div className="bus-stop kedzie"></div>
 
-            <div>
-                <p className="busname" id="stattwo">Clark & Devon</p>
-                <div className="statTwoCircle"></div>
-            </div>
+        <div className="connect-one"></div>
 
-            <div>
-                <p className="busname" id="statthree">Devon & Rockwell</p>
-                <div className="statThreeCircle"></div>
-            </div>
+        <div className="bus-stop rockwell"></div>
 
-            <div>
-                <p className="busname" id="statfour">Devon & Kedzie</p>
-                <div className="statFourCircle"></div>
-            </div>
-        </>
-    );
-}
+        <div className="connect-two"></div>
+
+        <div className="bus-stop clark"></div>
+
+        <div className="connect-three"></div>
+
+        <div className="connect-four"></div>
+
+        <div className="connect-five"></div>
+
+        <div className="connect-six"></div>
+
+        <div className="bus-stop sheridan"></div>
+        
+      </div>
+    </>
+  );
+};
 
 export default ArtistMap;
