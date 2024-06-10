@@ -1,7 +1,22 @@
 import React from "react";
 import "../css/artistMap.css";
 
-const ArtistMap = () => {
+const ArtistMap = ({artistName}) => {
+
+    const getClassByArtistName = (name) => {
+        switch (name.toLowerCase()) {
+          case 'pastor':
+            return 'kedzie-stop';
+          case 'anant':
+            return 'sheridan-stop';
+          case 'nurullah':
+            return 'clark-stop';
+          case 'kertayuda':
+            return 'rockwell-stop';
+          default:
+            return ''; 
+        }
+      };
   return (
     <>
       <div className="artist-map-container">
@@ -25,6 +40,8 @@ const ArtistMap = () => {
         <div className="connect-six"></div>
 
         <div className="bus-stop sheridan"></div>
+
+        <div className={`pin ${getClassByArtistName(artistName)}`}></div>
         
       </div>
     </>

@@ -4,6 +4,7 @@ import Arist_mini from './components/artist_mini'
 import Button from './components/button'
 import MiniMap from './components/miniMap'
 import Navbar from './components/navbar'
+import ArtistDetails from './components/artistDetails'
 
 
 function App() {

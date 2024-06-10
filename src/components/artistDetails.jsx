@@ -10,7 +10,8 @@ function artistDetails({ artistName, artistInfo, artistImages }) {
       <div className="artist-detials-container">
         <div className="artist">
             <div className="artist-name">Chethan Anant</div>
-            <ArtistMap/>
+            
+            <ArtistMap artistName="Anant"/>
         </div>
         
         <div class="line" id="left"></div>
