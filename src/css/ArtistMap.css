@@ -1,0 +1,142 @@
+.artist-map-container {
+    position: relative;
+    min-width: 125px;
+    max-width: 125px;
+    min-height: 120px;
+    max-height: 120px;
+    border-radius: 1rem;
+    overflow-x: hidden;
+    overflow: hidden;
+    background: #282828;
+    box-shadow: inset 0.5rem 0.5rem 5px rgba(0, 0, 0, 0.25);
+    margin-left: 1rem;
+    transform: scale(0.8);
+  }
+  
+  .bus-stop {
+    width: 5px;
+    height: 5px;
+    border-radius: 0.35rem;
+    background-color: white;
+  }
+  
+  .kedzie {
+    position: absolute;
+    top: 4.5em;
+    left: 1.5em;
+  }
+  
+  .connect-one {
+    width: 1em;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    top: 4.6em;
+    left: 1.5em;
+  }
+  
+  .rockwell {
+    position: absolute;
+    top: 4.5em;
+    left: 2.5em;
+  }
+  
+  .connect-two {
+    width: 1em;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    top: 4.6em;
+    left: 2.5em;
+  }
+  
+  .clark {
+    position: absolute;
+    top: 4.5em;
+    left: 3.5em;
+  }
+  
+  .connect-three {
+    width: 1em;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    top: 4.6em;
+    left: 3.5em;
+  }
+  
+  .connect-four {
+    width: 1px;
+    height: 0.8em;
+    position: absolute;
+    background-color: white;
+    top: 3.85em;
+    left: 4.5em;
+  }
+  
+  .connect-five {
+    width: 0.8em;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    top: 3.85em;
+    left: 4.5em;
+  }
+  
+  .connect-six {
+    width: 1px;
+    height: 1.5em;
+    position: absolute;
+    background-color: white;
+    top: 2.4em;
+    left: 5.3em;
+  }
+  
+  .sheridan {
+    position: absolute;
+    top: 2.2em;
+    left: 5.2em;
+  }
+  
+  .pin {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .pin::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 9px solid red;
+  }
+  
+  .kedzie-stop {
+    top: 3.8em;
+    left: 1.5em;
+  }
+  
+  .rockwell-stop {
+    top: 3.8em;
+    left: 2.5em;
+  }
+  
+  .clark-stop {
+    top: 3.8em;
+    left: 3.5em;
+  }
+  
+  .sheridan-stop {
+    top: 1.5em;
+    left: 5.2em;
+  }
+  
+  .hide {
+      display: none;
+  }

@@ -1,10 +1,7 @@
-import img from '/src/assets/sample.jpeg';
 import Card from './artist_card';
 import imgtwo from '/src/assets/imageArt.png';
+import img from '/src/assets/sample.jpeg';
 import '/src/css/artist_mini.css';
-import { 
-    Link
-} from "react-router-dom";
 
 const Lineup = () => {
 
