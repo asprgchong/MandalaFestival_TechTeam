@@ -1,203 +1,411 @@
-.greybox {
-    width: 18rem;
-    height: 15.5rem;
-    background: #282828;
-    margin:1rem;
-    margin-top: 0.5rem;
-    border-radius: 1rem;
-    box-shadow: inset 1rem 1rem 10px rgba(0,0,0,0.25);
-    overflow-x: hidden;
-    overflow: hidden;
-    border-top-right-radius: 0rem;
-    border-bottom-right-radius: 0rem;
+@media only screen and (min-width: 320px){
+    .greybox {
+        width: 18rem;
+        height: 15.5rem;
+        background: #282828;
+        margin:1rem;
+        margin-top: 0.5rem;
+        border-radius: 1rem;
+        box-shadow: inset 1rem 1rem 10px rgba(0,0,0,0.25);
+        overflow-x: hidden;
+        overflow: hidden;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+    }
+
+    .smallGrey{
+        width:4rem;
+        height:3rem;
+        background-color: #4E4E4E;
+        border-radius: 0.5rem;
+        position:absolute;
+        top:13rem;
+        right:2.4rem;
+    }
+
+    .redlineOne {
+        position: absolute;
+        top: 0;
+        right: 7rem;
+        width: 0.9rem;
+        height: 10rem;
+        background-color: red;
+    }
+
+    .redlineTwo {
+        position: absolute;
+        top: 9.4rem;
+        right: 5.6rem;
+        width: 0.9rem;
+        height: 6rem;
+        background-color: red;
+        transform: rotate(-30deg);
+        /* border-top-left-radius: 1rem; */
+        z-index: 3;
+    }
+
+    .whiteDotOne {
+        position: absolute;
+        top: 4rem; 
+        right: 7.1rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+    }
+
+    .whiteDotTwo {
+        position: absolute;
+        top: 8rem; 
+        right: 7.1rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+    }
+
+    .whiteDotThree {
+        position: absolute;
+        top: 14rem; 
+        right: 4.6rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
+
+    .stationName {
+        position: absolute;
+        transform: rotate(-30deg);
+        font-weight: bold;
+    }
+
+    #side1 {
+        top: 2rem;
+        right: 3.5rem;
+        color: rgba(255, 255, 255, 0.45);
+        font-size: 0.9rem;
+    }
+
+    #side2 {
+        top: 6rem;
+        right: 3.5rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.9rem;
+    }
+
+    .busname {
+        position: absolute;
+        font-weight: bolder;
+    }
+
+    #statone {
+        top: 9rem;
+        right: 0.8rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        max-width: 4rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.8rem;
+    }
+
+    .statOneCircle {
+        position: absolute;
+        top: 13.5rem; 
+        right: 3rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
+
+    .whiteOne{
+        width:0.2rem;
+        height:4rem;
+        position: absolute;
+        background-color: white;
+        top: 13.5rem; 
+        right: 3.25rem; 
+    }
+
+    .whiteTwo{
+        width:0.2rem;
+        height:12rem;
+        position: absolute;
+        background-color: white;
+        top: 11.5rem; 
+        right: 9.14rem; 
+        transform: rotate(90deg);
+    }
+
+    #stattwo {
+        top: 17.5rem;
+        right: 3rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        max-width: 4rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.8rem;
+    }
+
+    .statTwoCircle {
+        position: absolute;
+        top: 17.2rem; 
+        right: 5rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
+
+    .statThreeCircle {
+        position: absolute;
+        top: 17.2rem; 
+        right: 10rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
+
+    #statthree {
+        top: 13.4rem;
+        right: 8rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        max-width: 4rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.8rem;
+    }
+
+    .statFourCircle {
+        position: absolute;
+        top: 17.2rem; 
+        right: 15rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
+
+    #statfour {
+        top: 17.5rem;
+        right: 12rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        max-width: 4rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.8rem;
+    }
 }
 
-.smallGrey{
-    width:4rem;
-    height:3rem;
-    background-color: #4E4E4E;
-    border-radius: 0.5rem;
-    position:absolute;
-    top:13rem;
-    right:2.4rem;
-}
+@media only screen and (min-width: 350px) {
+    .greybox {
+        width: 100%;
+        height: 15.5rem;
+        background: #282828;
+        margin:1rem;
+        margin-top: 0.5rem;
+        border-radius: 1rem;
+        box-shadow: inset 1rem 1rem 10px rgba(0,0,0,0.25);
+        overflow-x: hidden;
+        overflow: hidden;
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 0rem;
+    }
 
-.redlineOne {
-    position: absolute;
-    top: 0;
-    right: 7rem;
-    width: 0.9rem;
-    height: 10rem;
-    background-color: red;
-}
+    .smallGrey{
+        width:4rem;
+        height:3rem;
+        background-color: #4E4E4E;
+        border-radius: 0.5rem;
+        position:absolute;
+        top:13rem;
+        right:4.4rem;
+    }
 
-.redlineTwo {
-    position: absolute;
-    top: 9.4rem;
-    right: 5.6rem;
-    width: 0.9rem;
-    height: 6rem;
-    background-color: red;
-    transform: rotate(-30deg);
-    /* border-top-left-radius: 1rem; */
-    z-index: 3;
-}
+    .redlineOne {
+        position: absolute;
+        top: 0;
+        right: 9rem;
+        width: 0.9rem;
+        height: 10rem;
+        background-color: red;
+    }
 
-.whiteDotOne {
-    position: absolute;
-    top: 4rem; 
-    right: 7.1rem; 
-    width: 0.7rem;
-    height: 0.7rem; 
-    border-radius: 0.7rem;
-    background-color: white;
-}
+    .redlineTwo {
+        position: absolute;
+        top: 9.4rem;
+        right: 7.6rem;
+        width: 0.9rem;
+        height: 6rem;
+        background-color: red;
+        transform: rotate(-30deg);
+        /* border-top-left-radius: 1rem; */
+        z-index: 3;
+    }
 
-.whiteDotTwo {
-    position: absolute;
-    top: 8rem; 
-    right: 7.1rem; 
-    width: 0.7rem;
-    height: 0.7rem; 
-    border-radius: 0.7rem;
-    background-color: white;
-}
+    .whiteDotOne {
+        position: absolute;
+        top: 4rem; 
+        right: 9.1rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+    }
 
-.whiteDotThree {
-    position: absolute;
-    top: 14rem; 
-    right: 4.6rem; 
-    width: 0.7rem;
-    height: 0.7rem; 
-    border-radius: 0.7rem;
-    background-color: white;
-    z-index: 4;
-}
+    .whiteDotTwo {
+        position: absolute;
+        top: 8rem; 
+        right: 9.1rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+    }
 
-.stationName {
-    position: absolute;
-    transform: rotate(-30deg);
-    font-weight: bold;
-}
+    .whiteDotThree {
+        position: absolute;
+        top: 14rem; 
+        right: 6.6rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
 
-#side1 {
-    top: 2rem;
-    right: 3.5rem;
-    color: rgba(255, 255, 255, 0.45);
-    font-size: 0.9rem;
-}
+    .stationName {
+        position: absolute;
+        transform: rotate(-30deg);
+        font-weight: bold;
+    }
 
-#side2 {
-    top: 6rem;
-    right: 3.5rem;
-    color: rgba(255, 255, 255);
-    font-size: 0.9rem;
-}
+    #side1 {
+        top: 2rem;
+        right: 5.5rem;
+        color: rgba(255, 255, 255, 0.45);
+        font-size: 0.9rem;
+    }
 
-.busname {
-    position: absolute;
-    font-weight: bolder;
-}
+    #side2 {
+        top: 6rem;
+        right: 5.5rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.9rem;
+    }
 
-#statone {
-    top: 9rem;
-    right: 0.8rem;
-    font-size: 0.9rem;
-    flex-wrap: wrap;
-    max-width: 4rem;
-    color: rgba(255, 255, 255);
-    font-size: 0.8rem;
-}
+    .busname {
+        position: absolute;
+        font-weight: bolder;
+    }
 
-.statOneCircle {
-    position: absolute;
-    top: 13.5rem; 
-    right: 3rem; 
-    width: 0.7rem;
-    height: 0.7rem; 
-    border-radius: 0.7rem;
-    background-color: white;
-    z-index: 4;
-}
+    #statone {
+        top: 9rem;
+        right: 2.8rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        max-width: 4rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.8rem;
+    }
 
-.whiteOne{
-    width:0.2rem;
-    height:4rem;
-    position: absolute;
-    background-color: white;
-    top: 13.5rem; 
-    right: 3.25rem; 
-}
+    .statOneCircle {
+        position: absolute;
+        top: 13.5rem; 
+        right: 5rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
 
-.whiteTwo{
-    width:0.2rem;
-    height:12rem;
-    position: absolute;
-    background-color: white;
-    top: 11.5rem; 
-    right: 9.14rem; 
-    transform: rotate(90deg);
-}
+    .whiteOne{
+        width:0.2rem;
+        height:4rem;
+        position: absolute;
+        background-color: white;
+        top: 13.5rem; 
+        right: 5.25rem; 
+    }
 
-#stattwo {
-    top: 17.5rem;
-    right: 3rem;
-    font-size: 0.9rem;
-    flex-wrap: wrap;
-    max-width: 4rem;
-    color: rgba(255, 255, 255);
-    font-size: 0.8rem;
-}
+    .whiteTwo{
+        width:0.2rem;
+        height:12rem;
+        position: absolute;
+        background-color: white;
+        top: 11.5rem; 
+        right: 11.14rem; 
+        transform: rotate(90deg);
+    }
 
-.statTwoCircle {
-    position: absolute;
-    top: 17.2rem; 
-    right: 5rem; 
-    width: 0.7rem;
-    height: 0.7rem; 
-    border-radius: 0.7rem;
-    background-color: white;
-    z-index: 4;
-}
+    #stattwo {
+        top: 17.5rem;
+        right: 4rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        max-width: 4rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.8rem;
+    }
 
-.statThreeCircle {
-    position: absolute;
-    top: 17.2rem; 
-    right: 10rem; 
-    width: 0.7rem;
-    height: 0.7rem; 
-    border-radius: 0.7rem;
-    background-color: white;
-    z-index: 4;
-}
+    .statTwoCircle {
+        position: absolute;
+        top: 17.2rem; 
+        right: 7rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
 
-#statthree {
-    top: 13.4rem;
-    right: 8rem;
-    font-size: 0.9rem;
-    flex-wrap: wrap;
-    max-width: 4rem;
-    color: rgba(255, 255, 255);
-    font-size: 0.8rem;
-}
+    .statThreeCircle {
+        position: absolute;
+        top: 17.2rem; 
+        right: 12rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
 
-.statFourCircle {
-    position: absolute;
-    top: 17.2rem; 
-    right: 15rem; 
-    width: 0.7rem;
-    height: 0.7rem; 
-    border-radius: 0.7rem;
-    background-color: white;
-    z-index: 4;
-}
+    #statthree {
+        top: 13.4rem;
+        right: 10rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        max-width: 4rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.8rem;
+    }
 
-#statfour {
-    top: 17.5rem;
-    right: 12rem;
-    font-size: 0.9rem;
-    flex-wrap: wrap;
-    max-width: 4rem;
-    color: rgba(255, 255, 255);
-    font-size: 0.8rem;
+    .statFourCircle {
+        position: absolute;
+        top: 17.2rem; 
+        right: 17rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
+
+    #statfour {
+        top: 17.5rem;
+        right: 14rem;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+        max-width: 4rem;
+        color: rgba(255, 255, 255);
+        font-size: 0.8rem;
+    }
 }

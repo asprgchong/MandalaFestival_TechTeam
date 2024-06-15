@@ -24,3 +24,15 @@
     cursor: pointer;
     outline: inherit;
 }
+
+@media screen and (min-width: 375px){
+    .artist-cards {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        gap:1.5rem;
+        display: flex;
+        width: 90%;
+        margin-left: 1rem;
+    }
+}

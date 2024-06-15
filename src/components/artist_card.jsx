@@ -14,7 +14,7 @@ const Card = ({person, src, size, name}) => {
             <Link to={nameURL} state={{ from: person.name}}>
                 <div className="artist-card">
                     <img
-                    className="artist"
+                    className="artist_each"
                     src={src}
                     alt={person.name}
                     width={size}

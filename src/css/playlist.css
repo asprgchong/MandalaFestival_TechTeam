@@ -2,6 +2,12 @@
     margin-left:0.5rem;
 }
 
+@media screen and (min-width: 350px){
+    .playlist {
+        margin-right: 0.5rem;
+    }
+}
+
 .butt{
     background: none;
     color: inherit;
