@@ -36,3 +36,12 @@
         margin-left: 1rem;
     }
 }
+
+/* Lewis: Added adjustments for 425px */
+@media screen and (min-width: 425px){
+    .artist-cards {
+        gap: 2rem;
+        width: 85%; 
+        margin-left: 1.5rem; 
+    }
+}

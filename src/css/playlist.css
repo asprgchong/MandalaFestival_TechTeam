@@ -8,6 +8,13 @@
     }
 }
 
+/* Lewis: Adjustments for 425px */
+@media screen and (min-width: 425px){
+    .playlist {
+        margin-right: 1rem;
+    }
+}
+
 .butt{
     background: none;
     color: inherit;

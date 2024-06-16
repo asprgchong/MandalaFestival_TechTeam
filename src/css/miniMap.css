@@ -409,3 +409,77 @@
         font-size: 0.8rem;
     }
 }
+
+/* Lewis: Added adjustments for 425px */
+@media only screen and (min-width: 425px) {
+    .greybox {
+        width: 100%;
+    }
+
+    .smallGrey {
+        right: calc(4.4rem - 5%);
+    }
+
+    .redlineOne {
+        right: calc(9rem - 5%);
+    }
+
+    .redlineTwo {
+        right: calc(7.6rem - 5%);
+    }
+
+    .whiteDotOne,
+    .whiteDotTwo {
+        right: calc(9.1rem - 5%);
+    }
+
+    .whiteDotThree {
+        right: calc(6.6rem - 5%);
+    }
+
+    #side1,
+    #side2 {
+        right: calc(5.5rem - 5%);
+    }
+
+    #statone {
+        right: calc(2.8rem - 5%);
+    }
+
+    .statOneCircle {
+        right: calc(5rem - 5%);
+    }
+
+    .whiteOne {
+        right: calc(5.25rem - 5%);
+    }
+
+    .whiteTwo {
+        right: calc(11.14rem - 5%);
+    }
+
+    #stattwo {
+        right: calc(4rem - 5%);
+    }
+
+    .statTwoCircle {
+        right: calc(7rem - 5%);
+    }
+
+    .statThreeCircle {
+        right: calc(12rem - 5%);
+    }
+
+    #statthree {
+        right: calc(10rem - 5%);
+    }
+
+    .statFourCircle {
+        right: calc(17rem - 5%);
+    }
+
+    #statfour {
+        right: calc(14rem - 5%);
+    }
+}
+
