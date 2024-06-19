@@ -1,7 +1,7 @@
 #root {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0.5rem;
   }
   
   .logo {
@@ -13,43 +13,3 @@
   .logo:hover {
     filter: drop-shadow(0 0 2em #646cffaa);
   }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-@media only screen and (max-width: 500px) {
-    .line {
-        height: 2px;
-        width: 230px;
-        background-color: #fff;
-        position: absolute;
-        left: 0px;
-    }
-
-    #left {
-        float:left
-    }
-
-    .row {
-        display: flex;
-        align-items: flex-end;
-        column-count: 2;
-        margin-left: -1rem;
-        column-gap: 0.4rem;
-    }
-
-    .street{
-        font-size:1.4rem;
-        color:#9FD3DF;
-        margin-left:-0.5rem;
-    }
-
-    .bus{
-        line-height: 2.5rem;
-    }
-}

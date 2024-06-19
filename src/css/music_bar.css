@@ -1,0 +1,78 @@
+.music_bar {
+    background-color: #242424;
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+
+.audio_img {
+    width:40%;
+}
+
+.image {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.audio_text {
+    font-weight: bold;
+    margin:0.5rem;
+    margin-left: 1.5rem;
+}
+
+
+.play_button {
+    float:left;
+    margin:1rem;
+    margin-top:0.5rem;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.progress_bar {
+    overflow:hidden;
+    margin:0.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.artist_text {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    width: 100%;
+    margin-top: -0.8rem;
+}
+
+.track_data {
+    display: flex;
+}
+
+.time{
+    font-size: 0.6rem;
+    margin:0.2rem;
+    margin-left:0.15rem;
+}
+
+.downloadButt{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 0.8rem;
+    margin-left:-2rem;
+}
