@@ -5,7 +5,6 @@ import ArtistDetails from './pages/artistDetails';
 import Home from './pages/homepage';
 import Playlist from './pages/playlist';
 
-
 function App() {
     return (
         <Router>
