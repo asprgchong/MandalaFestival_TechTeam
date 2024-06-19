@@ -3,6 +3,9 @@ The project is a Vercel hosted website built on ReactJS framework showcasing the
 TechTeam Spring 2024 - Summer 2024 Project. 
 Main Contributors include: Geralyn Chong and Geno Lewis
 
+
+
+## TechTeam Members Setup Wiki
 **Set up steps**
 1. Top right - there should be a fork button --> click it to fork the repo
    <img width="747" alt="Screenshot 2024-04-26 at 2 10 29 AM" src="https://github.com/asprgchong/MandalaFestival_TechTeam/assets/136625723/03d0bbe0-e9c8-41b5-aec7-5e12b04c83df">
