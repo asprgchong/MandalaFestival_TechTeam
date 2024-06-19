@@ -2,6 +2,14 @@
     position: relative;
 }
 
+.redlineTwo {
+    transform: rotate(-42deg);
+}
+
+.ctaStation {
+    margin-top: -0.3rem;
+}
+
 @media only screen and (min-width: 320px){
     .greybox {
         width: 18rem;
@@ -38,12 +46,11 @@
 
     .redlineTwo {
         position: absolute;
-        top: 9.4rem;
-        right: 5.6rem;
+        top: 8.8rem;
+        right: 4.8rem;
         width: 0.9rem;
-        height: 6rem;
+        height: 6.8rem;
         background-color: red;
-        transform: rotate(-30deg);
         /* border-top-left-radius: 1rem; */
         z-index: 3;
     }
@@ -71,7 +78,7 @@
     .whiteDotThree {
         position: absolute;
         top: 14rem; 
-        right: 4.6rem; 
+        right: 4.9rem; 
         width: 0.7rem;
         height: 0.7rem; 
         border-radius: 0.7rem;
@@ -116,7 +123,7 @@
 
     .statOneCircle {
         position: absolute;
-        top: 13.5rem; 
+        top: 13.9rem; 
         right: 3rem; 
         width: 0.7rem;
         height: 0.7rem; 
@@ -127,20 +134,21 @@
 
     .whiteOne{
         width:0.2rem;
-        height:4rem;
+        height:3.6rem;
         position: absolute;
         background-color: white;
-        top: 13.5rem; 
-        right: 3.25rem; 
+        top: 14.2rem; 
+        right: 5.19rem; 
+        z-index: 6;
     }
 
     .whiteTwo{
         width:0.2rem;
-        height:12rem;
+        height:10.2rem;
         position: absolute;
         background-color: white;
-        top: 11.5rem; 
-        right: 9.14rem; 
+        top: 12.5rem; 
+        right: 10rem; 
         transform: rotate(90deg);
     }
 
@@ -209,6 +217,11 @@
 }
 
 @media only screen and (min-width: 350px) {
+
+    .redlineIm {
+        margin-left:2rem;
+    }
+
     .greybox {
         width: 100%;
         height: 23rem;
@@ -223,6 +236,7 @@
         border-bottom-right-radius: 0rem;
     }
 
+    
     .smallGrey{
         width:4rem;
         height:3rem;
@@ -230,26 +244,25 @@
         border-radius: 0.5rem;
         position:absolute;
         top:13rem;
-        right:4.4rem;
+        right:2.4rem;
     }
 
     .redlineOne {
         position: absolute;
-        top: -7em;
-        right: 9rem;
+        top: -8rem;
+        right: 7rem;
         width: 0.9rem;
-        height: 17rem;
+        height: 18rem;
         background-color: red;
     }
 
     .redlineTwo {
         position: absolute;
-        top: 9.4rem;
-        right: 7.6rem;
+        top: 8.8rem;
+        right: 4.8rem;
         width: 0.9rem;
-        height: 6rem;
+        height: 6.8rem;
         background-color: red;
-        transform: rotate(-30deg);
         /* border-top-left-radius: 1rem; */
         z-index: 3;
     }
@@ -257,7 +270,7 @@
     .whiteDotOne {
         position: absolute;
         top: 4rem; 
-        right: 9.1rem; 
+        right: 7.1rem; 
         width: 0.7rem;
         height: 0.7rem; 
         border-radius: 0.7rem;
@@ -267,7 +280,7 @@
     .whiteDotTwo {
         position: absolute;
         top: 8rem; 
-        right: 9.1rem; 
+        right: 7.1rem; 
         width: 0.7rem;
         height: 0.7rem; 
         border-radius: 0.7rem;
@@ -277,7 +290,7 @@
     .whiteDotThree {
         position: absolute;
         top: 14rem; 
-        right: 6.6rem; 
+        right: 4.9rem; 
         width: 0.7rem;
         height: 0.7rem; 
         border-radius: 0.7rem;
@@ -293,14 +306,14 @@
 
     #side1 {
         top: 2rem;
-        right: 5.5rem;
+        right: 3.5rem;
         color: rgba(255, 255, 255, 0.45);
         font-size: 0.9rem;
     }
 
     #side2 {
         top: 6rem;
-        right: 5.5rem;
+        right: 3.5rem;
         color: rgba(255, 255, 255);
         font-size: 0.9rem;
     }
@@ -312,7 +325,7 @@
 
     #statone {
         top: 9rem;
-        right: 2.8rem;
+        right: 0.8rem;
         font-size: 0.9rem;
         flex-wrap: wrap;
         max-width: 4rem;
@@ -322,8 +335,8 @@
 
     .statOneCircle {
         position: absolute;
-        top: 13.5rem; 
-        right: 5rem; 
+        top: 13.9rem; 
+        right: 3rem; 
         width: 0.7rem;
         height: 0.7rem; 
         border-radius: 0.7rem;
@@ -333,26 +346,27 @@
 
     .whiteOne{
         width:0.2rem;
-        height:4rem;
+        height:3.6rem;
         position: absolute;
         background-color: white;
-        top: 13.5rem; 
-        right: 5.25rem; 
+        top: 14.2rem; 
+        right: 5.19rem; 
+        z-index: 6;
     }
 
     .whiteTwo{
         width:0.2rem;
-        height:12rem;
+        height:10.2rem;
         position: absolute;
         background-color: white;
-        top: 11.5rem; 
-        right: 11.14rem; 
+        top: 12.5rem; 
+        right: 10rem; 
         transform: rotate(90deg);
     }
 
     #stattwo {
         top: 17.5rem;
-        right: 4rem;
+        right: 3rem;
         font-size: 0.9rem;
         flex-wrap: wrap;
         max-width: 4rem;
@@ -363,7 +377,7 @@
     .statTwoCircle {
         position: absolute;
         top: 17.2rem; 
-        right: 7rem; 
+        right: 5rem; 
         width: 0.7rem;
         height: 0.7rem; 
         border-radius: 0.7rem;
@@ -374,7 +388,7 @@
     .statThreeCircle {
         position: absolute;
         top: 17.2rem; 
-        right: 12rem; 
+        right: 10rem; 
         width: 0.7rem;
         height: 0.7rem; 
         border-radius: 0.7rem;
@@ -384,7 +398,7 @@
 
     #statthree {
         top: 13.4rem;
-        right: 10rem;
+        right: 8rem;
         font-size: 0.9rem;
         flex-wrap: wrap;
         max-width: 4rem;
@@ -395,7 +409,7 @@
     .statFourCircle {
         position: absolute;
         top: 17.2rem; 
-        right: 17rem; 
+        right: 15rem; 
         width: 0.7rem;
         height: 0.7rem; 
         border-radius: 0.7rem;
@@ -405,7 +419,7 @@
 
     #statfour {
         top: 17.5rem;
-        right: 14rem;
+        right: 12rem;
         font-size: 0.9rem;
         flex-wrap: wrap;
         max-width: 4rem;
@@ -418,6 +432,20 @@
     .redlineOne {
         top:-9rem;
         height: 19rem;
+    }
+
+    .whiteTwo {
+        height : 14rem;
+        right: 12rem;
+        top: 10.5rem;
+    }
+
+    .statFourCircle {
+        right: 19rem;
+    }
+
+    .statThreeCircle {
+        right: 12rem;
     }
 }
 
