@@ -1,4 +1,4 @@
-***Mandala Makers Festival Website***
+#Mandala Makers Festival Website#
 The project is a Vercel hosted website built on ReactJS framework showcasing the various artists that will be performing at the event. 
 Contributors include: Geralyn Chong and Geno Lewis
 
