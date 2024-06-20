@@ -15,6 +15,10 @@
   padding: 2em;
 }
 
+body {
+    margin-top: 0;
+}
+
 @media only screen and (min-width: 320px) {
     #root {
         max-width: 320px;
@@ -128,7 +132,7 @@
 /* Lewis: Added size adjustments for 425px */
 @media only screen and (min-width: 425px) {
     #root {
-        max-width: 425px;
+        max-width: 600px;
     }
 
     .line {
@@ -166,5 +170,60 @@
 
     .lp {
         margin-left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #root {
+        max-width: 768px;
+        overflow: hidden;
+    }
+
+    .row {
+        z-index: 2;
+        margin-top: -17em;
+        margin-bottom: 8em;
+        flex-wrap: wrap;
+        max-width: 15em;
+        column-gap: 0rem;
+    }
+
+    .column{
+        margin-top:-0.01em;
+        margin-left: 3rem;
+    }
+
+    .line {
+        top: 25.5em;
+        width: 220px;
+    }
+
+    .lp {
+        margin-top: -10em;
+        margin-bottom: 9em;
+        max-width: 13em;;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .line {
+        top: 24em;
+        width: 250px;
+    }
+
+    .street {
+        font-size: 2em;
+    }
+
+    .column {
+        transform: scale(1.1);
+    }
+
+    .row {
+        margin-top: -20em;
+    }
+
+    .lp {
+        max-width: 14em;
     }
 }

@@ -449,3 +449,75 @@
     }
 }
 
+@media only screen and (min-width: 600px) {
+    .greybox {
+        margin-left:15em;
+    }
+
+    .redlineOne {
+        position: absolute;
+        top: -12rem;
+        right: 7rem;
+        width: 0.9rem;
+        height: 22rem;
+        background-color: red;
+    }
+
+    .whiteTwo{
+        width:0.2rem;
+        height:10.2rem;
+        position: absolute;
+        background-color: white;
+        top: 12.5rem; 
+        right: 10rem; 
+        transform: rotate(90deg);
+    }
+
+    .statFourCircle {
+        position: absolute;
+        top: 17.2rem; 
+        right: 15rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
+
+    .statThreeCircle {
+        position: absolute;
+        top: 17.2rem; 
+        right: 10rem; 
+        width: 0.7rem;
+        height: 0.7rem; 
+        border-radius: 0.7rem;
+        background-color: white;
+        z-index: 4;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    .whiteTwo {
+        height : 18rem;
+        right: 14.2rem;
+        top: 8.5rem;
+    }
+
+    .statFourCircle {
+        right: 23rem;
+    }
+
+    .statThreeCircle {
+        right: 12rem;
+    }
+
+    .greybox {
+        margin-left:13em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .greybox {
+        margin-left:18em;
+    }
+}
