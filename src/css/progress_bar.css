@@ -26,6 +26,10 @@ input[type="range"] {
     border-radius: 2px;
     cursor: pointer;
   }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+  }
   
   /* played progress length - Chrome & safari*/
   input[type="range"]::before {

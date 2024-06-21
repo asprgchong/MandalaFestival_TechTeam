@@ -32,6 +32,12 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .title {
+        font-size: 2rem;
+    }
+}
+
 .butt{
     background: none;
     color: inherit;

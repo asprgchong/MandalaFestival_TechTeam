@@ -46,7 +46,7 @@ const artistDetails = () => {
                         <ArtistMap artistName={map}/>
                     </div>
 
-                    <div class="line" id="left"></div>
+                    <div class="adline" id="left"></div>
 
                     <div className='artistDetails'>
                         {playlist ? (

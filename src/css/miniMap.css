@@ -521,3 +521,22 @@
         margin-left:18em;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .greybox {
+        margin-left:30em;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .greybox {
+        margin-left:55em;
+    }
+
+    .redlineIm {
+        transform: scale(1.4);
+        margin-top: 3rem;
+        left: -20rem;
+    }
+}
