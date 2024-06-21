@@ -76,3 +76,9 @@
     font-size: 0.8rem;
     margin-left:-2rem;
 }
+
+@media screen and (min-width: 550px){
+    .audio_text {
+        width: 100%;
+    }
+}

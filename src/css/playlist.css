@@ -15,6 +15,23 @@
     }
 }
 
+@media screen and (min-width: 550px){
+    .playlist {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    .title {
+        font-size: 1.3rem;
+    }
+
+    .artistdrop {
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+}
+
 .butt{
     background: none;
     color: inherit;

@@ -50,7 +50,7 @@ const artistDetails = () => {
 
                     <div className='artistDetails'>
                         {playlist ? (
-                            <Link to="/playlist">Listen to more songs</Link>
+                            <Link to="/playlist" className='artistDetails'>Listen to more songs</Link>
                         ) : null}
                     </div>
                     <div className="artist-info">
