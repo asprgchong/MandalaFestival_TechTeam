@@ -46,11 +46,11 @@ const artistDetails = () => {
                         <ArtistMap artistName={map}/>
                     </div>
 
-                    <div class="line" id="left"></div>
+                    <div class="adline" id="left"></div>
 
                     <div className='artistDetails'>
                         {playlist ? (
-                            <Link to="/playlist">Listen to more songs</Link>
+                            <Link to="/playlist" className='artistDetails'>Listen to more songs</Link>
                         ) : null}
                     </div>
                     <div className="artist-info">
