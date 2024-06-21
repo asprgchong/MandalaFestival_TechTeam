@@ -1,0 +1,9 @@
+.arrow-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: black;
+}

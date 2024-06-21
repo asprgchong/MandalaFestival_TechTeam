@@ -1,11 +1,10 @@
 .artist-lineup {
-    margin: 0;
+    margin: 0 0 0 1.4rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 0.7rem;
     width: 100%;
-    /* margin-top:3rem; */
 }
 
 .artist-cards {
@@ -16,33 +15,16 @@
     width: fit-content;
 }
 
-.slider-btn {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-}
 
-@media screen and (min-width: 375px){
-    .artist-cards {
-        margin: 0;
-        align-items: center;
-        justify-content: center;
-        gap:1rem;
-        display: flex;
-        width: 90%;
-        margin-left: 1rem;
+@media screen and (min-width: 375px) {
+    .artist-lineup {
+        max-width: 375px;
     }
 }
 
 /* Lewis: Added adjustments for 425px */
 @media screen and (min-width: 425px){
-    .artist-cards {
-        gap: 2rem;
-        width: 85%; 
-        margin-left: 1.5rem; 
+    .artist-lineup {
+        max-width: 425px;
     }
 }
