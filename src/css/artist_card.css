@@ -1,4 +1,4 @@
-.artist-card, .artist-image, .card-text {
+.artist-card, .artist-image{
     width: 80px;
     height: 80px;
     border-radius: 5px;
@@ -9,6 +9,8 @@
 }
 
 .card-text {
+    width: 80px;
+    height: 80px;
     margin-top: 0;
     color: black;
     margin: 0; 
