@@ -14,7 +14,7 @@ const Navbar = () => {
             className='logo'
             /></Link>
 
-            <a href="https://makersfestival.mandalaarts.org/" className="about">About Us</a>
+            <a href="https://makersfestival.mandalaarts.org/" className="about">ABOUT US</a>
         </div>
     )
 }

@@ -528,7 +528,6 @@
     }
 }
 
-
 @media only screen and (min-width: 1440px) {
     .greybox {
         margin-left:55em;
@@ -536,7 +535,7 @@
 
     .redlineIm {
         transform: scale(1.4);
-        margin-top: 3rem;
+        margin-top: 8rem;
         left: -20rem;
     }
 }

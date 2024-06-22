@@ -1,18 +1,11 @@
 .artist-lineup {
-    margin: 0 0 0 1.4rem;
+    margin-left: -0.4rem;
+    margin-bottom: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 0.7rem;
-    width: 100%;
-}
-
-.artist-cards {
-    margin: 0;
-    align-items: center;
-    gap:1rem;
-    display: flex;
-    width: fit-content;
+    gap: 0.4rem;
+    max-width: 80px;
 }
 
 
@@ -29,3 +22,35 @@
     }
 }
 
+@media screen and (min-width: 500px) {
+    .artist-lineup {
+        margin-top: 3rem;
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .artist-lineup {
+        margin-top: 5rem;
+        max-width: 1024px;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .artist-lineup {
+        margin-top: 10rem;
+        max-width: 1440px;
+        margin-bottom: 8rem;
+        gap: 4rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .artist-lineup {
+        margin-top: 15rem;
+        margin-bottom: 8rem;
+        margin-left: 2rem;
+        gap: 10rem;
+    }
+}
