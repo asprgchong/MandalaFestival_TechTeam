@@ -278,8 +278,9 @@ body {
 
 @media only screen and (min-width: 1440px) {
     .line {
-        top: 10em;
-        width: 300px;
+        top: 9em;
+        left: -20em;
+        width: 40rem;
     }
 
     .street {
@@ -293,13 +294,9 @@ body {
     }
 
     .row {
-        margin-top: -17em;
+        margin-top: -25em;
         margin-left: 3rem;
         transform: scale(1.5);
-    }
-
-    #root {
-        max-width: 1440px;
     }
 
     .lp {
