@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../components/footer";
 import MiniPlaylist from "../components/miniPlaylist";
 import Navbar from "../components/navbar";
 import '../css/playlist.css';
@@ -31,7 +32,7 @@ const Playlist = () => {
                 </div>
                 <MiniPlaylist isVisible={isVisibleT} artist="Juan"/> 
             </div>
-            
+            <Footer/>
         </>
     );
 };

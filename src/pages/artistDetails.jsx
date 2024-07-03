@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import ArtistMap from '../components/ArtistMap';
+import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import '/src/css/artist_details.css';
 
@@ -58,6 +59,7 @@ const artistDetails = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

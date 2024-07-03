@@ -1,11 +1,12 @@
 import React from "react";
+import '../css/footer.css';
 
-const footer = () => {
+const Footer = () => {
     return(
         <div class="footer">
-            
+            <p>Created by UChicago TechTeam</p>
         </div>
     )
 }
 
-export default button
+export default Footer;

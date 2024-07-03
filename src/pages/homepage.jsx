@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../css/homepage.css';
 import Artist_mini from '/src/components/artist_mini';
+import Footer from '/src/components/footer';
 import MiniMap from '/src/components/miniMap';
 import Navbar from '/src/components/navbar';
 
@@ -19,6 +20,8 @@ function App() {
             <p class="lp" >Mandala Maker's Festival featuring an activation at the Morse Station </p>
 
             <Artist_mini />
+
+            <Footer />
         </>
     )
 }
