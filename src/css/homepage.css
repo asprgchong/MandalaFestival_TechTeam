@@ -46,10 +46,12 @@ body {
     }
 
     .street{
-        font-size:1.4rem;
+        font-size:1.7rem;
         color:#9FD3DF;
         margin-left:-0.5rem;
+        margin-right: 2rem;
         margin-top:-1rem;
+        color:#9FD3DF;
     }
 
     .bus{
@@ -62,12 +64,6 @@ body {
         column-count: 2;
         margin-left: 1rem;
         column-gap: 0.3rem;
-    }
-    
-    .street{
-        font-size:1.4rem;
-        color:#9FD3DF;
-        margin-left:0.5rem;
     }
     
     .bus{
@@ -110,9 +106,10 @@ body {
     }
     
     .street{
-        font-size:1.4rem;
+        font-size:1.6rem;
         color:#9FD3DF;
-        margin-left:1.5rem;
+        margin-left:2rem;
+        margin-right: -2rem;
         margin-top: 1.5rem;
     }
     
@@ -134,6 +131,7 @@ body {
 
     .lp {
         margin-left: 1rem;
+        margin-right:2rem;
         font-size: 0.8rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -169,10 +167,11 @@ body {
     }
 
     .street {
-        font-size: 1.4rem;
+        font-size: 2rem;
         color: #9FD3DF;
         margin-left: 2rem;
         margin-top: 1rem;
+        margin-right: 2rem;
     }
 
     .bus {
@@ -221,7 +220,7 @@ body {
 
 @media only screen and (min-width: 768px) {
     .line {
-        top: 24em;
+        top: 23em;
         width: 250px;
     }
 
@@ -239,14 +238,14 @@ body {
 
     .lp {
         max-width: 14em;
-        margin-bottom: 1rem;
+        margin-bottom: 10rem;
         margin-top: -7rem;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .line {
-        top: 22em;
+        top: 21em;
         width: 300px;
     }
 
@@ -254,10 +253,16 @@ body {
         font-size: 2.5em;
         margin-right: -5em;
         margin-left: 4rem;
+        margin-bottom: 5rem;
     }
 
     .column {
-        max-width: 40em;
+        max-width: 60em;
+    }
+
+    .cta {
+        margin-top: -4rem;
+        margin-right: 4rem;
     }
 
     .row {
@@ -300,9 +305,10 @@ body {
     }
 
     .lp {
-        margin-top: 3rem;
+        margin-top: -2rem;
         font-size: 1.5rem;
         max-width: 30rem;
-        margin-bottom: 3rem;
+        margin-bottom: 20rem;
+        margin-left: 4rem;
     }
 }
