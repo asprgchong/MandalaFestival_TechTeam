@@ -1,3 +1,17 @@
+.songIcon {
+    filter: invert(1);
+    z-index: 4;
+    object-fit: cover;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    position: relative;
+    left: 5.5rem;
+    top: 0.5rem;
+    margin-top: -2rem;
+    border: 1px solid black;
+}
+
 .artist-card{
     display: flex;
     flex-wrap: wrap;
@@ -34,10 +48,42 @@
         width: 80px;
         height: 80px;
     }
+
+    .songIcon {
+        top: 5.5rem;
+        width: 5vw;
+        height: 5vw;
+        left: 3.7rem;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .songIcon {
+        left: 3.3rem;
+        top: 5.2rem;
+    }
 }
 
 
 @media screen and (min-width: 500px) {
+    .artist-card, .artist-image, .card-text {
+        object-fit: cover;
+        transform: scale(1.2);
+    }
+
+    .card-text {
+        font-size: 7px;
+    }
+
+    .songIcon {
+        left: 3.7rem;
+        top: 5rem;
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
     .artist-card, .artist-image, .card-text {
         object-fit: cover;
         transform: scale(1.4);
@@ -45,6 +91,13 @@
 
     .card-text {
         font-size: 7px;
+    }
+
+    .songIcon {
+        left: 4.2rem;
+        top: 4.8rem;
+        width: 3vw;
+        height: 3vw;
     }
 }
 
@@ -56,6 +109,13 @@
 
     .card-text {
         font-size: 7px;
+    }
+
+    .songIcon {
+        left: 5.5rem;
+        top: 0.5rem;
+        width: 1vw;
+        height: 1vw;
     }
 }
 

@@ -1,5 +1,6 @@
 import { React } from "react";
 import { Link } from "react-router-dom";
+import music from '../assets/output-onlinegiftools.gif';
 import "/src/css/artist_card.css";
 
 const Card = ({ person, src, name }) => {
@@ -7,11 +8,19 @@ const Card = ({ person, src, name }) => {
   let nameURL = "/" + name;
   if (person.name == "Chethan Anant" || person.name == "Juan Pastor") {
     playlist = 1;
+
   }
   return (
     <>
       <Link to={nameURL} state={{ from: person.name }}>
         <div className="artist-card">
+        {playlist ? 
+            <img 
+                src={music} 
+                className="songIcon"
+            /> : 
+            <></>
+        }
           <img
             className="artist-image"
             src={src}
