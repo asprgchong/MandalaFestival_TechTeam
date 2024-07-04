@@ -528,6 +528,30 @@
     }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .greybox {
+        margin-left:40em;
+    }
+
+    .redlineIm {
+        margin-right: 5rem;
+    }
+
+    .whiteTwo {
+        height: 30rem;
+        right: 20rem;
+        top: 2.5rem;
+    }
+
+    .statThreeCircle {
+        right: 20rem;
+    }
+
+    .statFourCircle {
+        right: 35rem;
+    }
+}
+
 @media only screen and (min-width: 1440px) {
     .greybox {
         margin-left:55em;

@@ -3,6 +3,40 @@
     display: flex;
     align-items: center;
     margin-left: 1rem;
+    z-index: 3;
+    position:relative;
+}
+
+/* .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    z-index: 3;
+    position:relative;
+    margin-top: -3.2rem;
+} */
+
+.brownStripOne {
+    width: 50em;
+    height: 1.4em;
+    position: absolute;
+    background-color: #b89464;
+    top: 3.4rem;
+    z-index: 1;
+    position: relative;
+}
+
+.brownStripTwo {
+    width: 15em;
+    height: 1.4em;
+    position: absolute;
+    background-color: #b89464;
+    left: 48.9rem;
+    z-index: 1;
+    position: relative;
+    transform: rotate(-27deg);
+    top: -1.3rem;
 }
 
 .logo {
@@ -10,7 +44,7 @@
     width: auto;
     padding: 0;
     transform: scale(0.5);
-    margin-left: -4rem;
+    margin-left: -10rem;
     margin-bottom: -2rem;
     margin-top: -1rem;
 }
@@ -73,6 +107,7 @@
     .navbar {
         display: flex;
         grid-row: 2;
+        width: 90%;
     }
 
     .about {
@@ -82,22 +117,33 @@
         color: white;
         margin-bottom: 0.5rem;
         text-align: right;
-        margin-right: 2rem;
+        margin-left: -10rem;
     }
-    }
+
     .about:hover {
         color: #9FD3DF;
+    }
+
+    .logo {
+        transform: scale(0.4);
+        margin-left: -8rem;
     }
 }
 
 @media only screen and (min-width: 425px) {
     .logo {
         max-height: 90px;
+        transform: scale(0.4);
+        margin-left: -10rem;
     }
 
     .about {
-        font-size: 15px;
-        margin-left: 1rem;
+        font-size: 14px;
+        margin-left: -6rem;
+    }
+
+    .navbar {
+        margin-left: -2rem;
     }
 }
 
@@ -108,7 +154,7 @@
 
     .about {
         font-size: 12px;
-        margin-left: 1rem;
+        margin-left: -5rem;
         align-items: center;
         text-align: left;
         margin-right: 0;

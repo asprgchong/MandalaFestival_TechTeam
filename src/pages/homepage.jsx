@@ -17,7 +17,7 @@ function App() {
                 <h1 class="column cta">cta</h1>
                 <div class="line" id="left"></div>
             </div>
-            <p class="lp" >Mandala Maker's Festival featuring an activation at the Morse Station </p>
+            <p class="lp" >Mandala presents an activation at the Morse Station.</p>
 
             <Artist_mini />
 
